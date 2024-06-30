@@ -15,7 +15,7 @@ async function main() {
 
   // We get the contract to deploy
   const Greeter = await hre.ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("pittu prasanth!");
+  const greeter = await Greeter.deploy("Hemanth Kankatala");
 
   await greeter.deployed();
 
